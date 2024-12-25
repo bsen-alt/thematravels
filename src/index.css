@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this in your global styles or component's CSS file */
+.bg-primary {
+  background-color: #3498db;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-1 {
+  width: 1px;
+}
+
+.w-10 {
+  width: 40px;
+}
+
+.h-10 {
+  height: 40px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+/* translate option */
