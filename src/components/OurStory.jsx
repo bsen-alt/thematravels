@@ -37,12 +37,12 @@ const OurStory = () => {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/2 relative w-full h-full flex justify-center items-center">
+        <div className="md:w-1/2 relative w-full h-full flex justify-center items-center ">
           {/* Main Image */}
           <img
             src={aboutImg3}
             alt="About Us"
-            className="w-full h-auto max-w-full shadow-lg"
+            className="w-full h-auto max-w-full shadow-lg rounded-lg"
           />
           {/* Logo positioned in the top-left corner */}
           <img

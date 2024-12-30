@@ -84,7 +84,7 @@ const PartnersAndAffiliations = () => {
           autoPlay
           loop
           muted
-          className="w-full max-h-[300px] sm:max-h-[400px] object-cover "
+          className="w-full max-h-[300px] sm:max-h-[400px] object-cover rounded-lg"
         />
       </div>
 
@@ -100,7 +100,7 @@ const PartnersAndAffiliations = () => {
             <img
               src={partners[currentIndex].logo}
               alt={partners[currentIndex].name}
-              className="h-full sm:h-24 w-48 object-contain" // Fixed dimensions
+              className="h-full sm:h-24 w-48 object-contain " // Fixed dimensions
             />
             {/* Title with fixed height */}
             <h2
@@ -135,7 +135,7 @@ const PartnersAndAffiliations = () => {
               >
                 <video
                   src={partner.video}
-                  className={`h-20 sm:h-24 w-20 sm:w-24 object-cover border ${
+                  className={`h-20 sm:h-24 w-20 sm:w-24 object-cover border rounded-lg ${
                     index === currentIndex
                       ? "border-[#333333]"
                       : "border-gray-300"

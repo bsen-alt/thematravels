@@ -109,7 +109,7 @@ const OurTeam = () => {
         ].map((member, index) => (
           <motion.div
             key={index}
-            className="overflow-hidden bg-white border border-black/30 group h-full"
+            className="overflow-hidden bg-white border border-black/30 group h-full rounded-lg"
             variants={cardVariants}
             whileHover={{
               scale: 1.05,

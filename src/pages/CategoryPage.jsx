@@ -214,7 +214,7 @@ const CategoryPage = () => {
           tours.map((tour) => (
             <div
               key={tour.id}
-              className="relative group overflow-hidden cursor-pointer transform transition-all"
+              className="relative group overflow-hidden cursor-pointer transform transition-all rounded-lg"
             >
               <Link to={`/tour/${tour.id}`}>
                 {/* Card Background Image */}
@@ -234,7 +234,7 @@ const CategoryPage = () => {
                     {tour.description || "Explore this amazing tour"}
                   </p>
                   <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-                    <button className="bg-transparent border text-white py-2 px-4 text-[.8rem] sm:text-sm hover:bg-[#333333] transform translate-y-12 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                    <button className="bg-transparent border text-white py-2 px-4 text-[.8rem] sm:text-sm hover:bg-[#333333] transform translate-y-12 group-hover:translate-y-0 transition-transform duration-500 ease-in-out rounded-lg">
                       VIEW MORE
                     </button>
                   </div>

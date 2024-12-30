@@ -9,6 +9,8 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 import { useEffect, useRef } from "react";
 import ToursPage from "./pages/ToursPage.jsx";
 import CategoryPage from "./pages/CategoryPage.jsx";
+import TourDetails from "./pages/TourDetails.jsx";
+import CustomizeTourPage from "./pages/CustomizeTourPage .jsx";
 
 function App() {
   // const containerRef = useRef(null); // Create a ref for the container
@@ -78,6 +80,24 @@ function App() {
             element={
               <>
                 <CategoryPage />
+                {renderFooter()}
+              </>
+            }
+          />
+          <Route
+            path="/tour/:tourId"
+            element={
+              <>
+                <TourDetails />
+                {renderFooter()}
+              </>
+            }
+          />
+          <Route
+            path="/customize-tour"
+            element={
+              <>
+                <CustomizeTourPage />
                 {renderFooter()}
               </>
             }

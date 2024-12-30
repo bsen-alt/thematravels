@@ -250,24 +250,32 @@ const Navbar = () => {
 
   const getNavbarClasses = () => {
     const isCategoryPage = location.pathname.startsWith("/category/");
+    const isTourDetailPage = location.pathname.startsWith("/tour/");
     const isToursPage = location.pathname === "/tours";
     const isAboutPage = location.pathname === "/about";
+    const isCustomizeTourPage = location.pathname === "/customize-tour";
     const isHomePage = location.pathname === "/";
 
     if (isScrolled) {
       if (isCategoryPage) {
-        return "h-[4rem] bg-[#333333] text-white shadow-md"; // Dark background for category pages
+        return " h-[4rem] bg-[#333333] text-white shadow-md "; // Dark background for category pages
       }
       if (isToursPage) {
-        return "h-[4rem] md:bg-[#333333] md:text-white shadow-md"; // Dark background for Tours
+        return " h-[4rem] md:bg-[#333333] md:text-white shadow-md "; // Dark background for Tours
       }
       if (isAboutPage) {
-        return "h-[4rem] bg-white shadow-md"; // Dark background for Tours
+        return " h-[4rem] bg-white shadow-md "; // Dark background for Tours
       }
       if (isHomePage) {
-        return "h-[4rem] bg-white shadow-md"; // Dark background for Tours
+        return " h-[4rem] bg-white shadow-md "; // Dark background for Tours
       }
-      return "h-[4rem] bg-white shadow-md text-white"; // Default background
+      if (isTourDetailPage) {
+        return " h-[4rem] bg-white shadow-md "; // Dark background for Tours
+      }
+      if (isCustomizeTourPage) {
+        return " h-[4rem] bg-white shadow-md text-[#333333] "; // Dark background for Tours
+      }
+      return " h-[4rem] bg-white shadow-md text-white "; // Default background
     }
 
     // if (!isScrolled) {
@@ -275,14 +283,17 @@ const Navbar = () => {
     // }
 
     if (isCategoryPage) {
-      return "h-[6rem] bg-[#333333] text-white"; // Dark background for category pages
+      return " h-[6rem] bg-[#333333] text-white "; // Dark background for category pages
     }
 
     if (isToursPage) {
-      return "h-[6rem] bg-[#333333] text-white"; // Dark background for Tours
+      return " h-[6rem] bg-[#333333] text-white "; // Dark background for Tours
+    }
+    if (isTourDetailPage) {
+      return " h-[6rem] bg-[#333333] text-white "; // Dark background for Tours
     }
 
-    return "h-[6rem] bg-transparent text-white"; // Default background
+    return " h-[6rem] bg-transparent text-white "; // Default background
   };
 
   return (

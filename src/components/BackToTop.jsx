@@ -26,7 +26,7 @@ const BackToTop = () => {
   return (
     isVisible && (
       <motion.div
-        className="fixed bottom-3 md:bottom-12 right-6 z-50 cursor-pointer bg-[#777]/60 backdrop-blur-sm md:bg-[#777]/60 md:backdrop-blur-sm text-white p-3  shadow-lg"
+        className="fixed bottom-3 md:bottom-12 right-6 z-50 cursor-pointer bg-[#777]/60 backdrop-blur-sm md:bg-[#777]/60 md:backdrop-blur-sm text-white p-3  shadow-lg rounded-lg"
         onClick={scrollToTop}
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

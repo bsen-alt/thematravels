@@ -1,0 +1,1807 @@
+
+
+
+[
+  {
+    "id": 1,
+    "category": "luxury",
+    "title": "4-Day Luxury Mountain Hiking Tour",
+    "description": "Embark on a thrilling 4-day luxury mountain hiking experience. Discover breathtaking landscapes, indulge in gourmet meals, and unwind in opulent accommodations. Perfect for adventure seekers who crave luxury.",
+    "image": "dummyImg.jpg",
+    "price": 1200,
+    "duration": "4 Days",
+    "highlights": [
+      {
+        "title": "Luxury Mountain Accommodations",
+        "description": "Stay in exclusive mountain lodges offering panoramic views, modern amenities, and unmatched comfort.",
+        "images": [
+          "dummyImg.jpg",
+          "dummyImg.jpg",
+          "dummyImg.jpg",
+          "dummyImg.jpg"
+        ]
+      },
+      {
+        "title": "Private Guide and Tailored Itinerary",
+        "description": "Enjoy personalized experiences with a dedicated guide ensuring safety and a custom-tailored itinerary.",
+        "images": [
+          "guide_service_1.jpg",
+          "custom_itinerary_1.jpg"
+        ]
+      },
+      {
+        "title": "Gourmet Meals Included",
+        "description": "Savor delicious gourmet meals, featuring local flavors and international cuisine prepared by expert chefs.",
+        "images": [
+          "gourmet_meal_1.jpg",
+          "gourmet_meal_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Welcome Dinner",
+        "description": "Arrive at the base lodge and enjoy a warm welcome from our team. Indulge in a gourmet dinner under the stars, with live acoustic music. Accommodations in luxury mountain cabins.",
+        "accommodation": "Luxury Mountain Lodge",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private luxury car",
+        "areaHighlights": [
+          {
+            "title": "Scenic Base Camp Views",
+            "description": "Marvel at breathtaking mountain vistas right from your lodge.",
+            "images": [
+              "scenic_base_1.jpg",
+              "scenic_base_2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Guided Mountain Hike",
+        "description": "Embark on a guided hike through lush trails, discovering hidden waterfalls and stunning panoramas. Midway, enjoy a gourmet picnic lunch prepared by our chefs.",
+        "accommodation": "Luxury Mountain Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "6 hours of hiking",
+        "transferMode": "Hiking",
+        "areaHighlights": [
+          {
+            "title": "Hidden Waterfalls",
+            "description": "Explore secret waterfalls, perfect for photography and a refreshing dip.",
+            "images": [
+              "hidden_waterfall_1.jpg",
+              "hidden_waterfall_2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Spa and Relaxation Day",
+        "description": "After an adventurous hike, indulge in a full day of relaxation with spa treatments, yoga sessions, and leisure time by the lodge\u2019s infinity pool.",
+        "accommodation": "Luxury Mountain Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "No travel",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Infinity Pool",
+            "description": "Unwind by the lodge\u2019s infinity pool, overlooking the mountains.",
+            "images": [
+              "infinity_pool_1.jpg",
+              "infinity_pool_2.jpg"
+            ]
+          },
+          {
+            "title": "Luxury Spa",
+            "description": "Rejuvenate with personalized spa treatments.",
+            "images": [
+              "spa_treatment_1.jpg",
+              "spa_treatment_2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "4",
+        "title": "Farewell Breakfast and Departure",
+        "description": "Enjoy a hearty farewell breakfast, featuring local and international dishes, before your private transfer back to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to the airport",
+        "transferMode": "Private luxury car",
+        "areaHighlights": [
+          {
+            "title": "Local Farewell Gift",
+            "description": "Receive a complimentary local souvenir as a token of your adventure.",
+            "images": [
+              "farewell_gift_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "luxury",
+    "title": "7-Day Luxury Rock Climbing Adventure",
+    "description": "Immerse yourself in an exclusive rock climbing experience with luxurious accommodations, private chef services, and a tailored itinerary for climbers of all levels.",
+    "image": "tourluxary2",
+    "price": 2500,
+    "duration": "7 Days",
+    "highlights": [
+      {
+        "title": "Exclusive Rock Climbing Experience",
+        "description": "Tackle iconic rock formations with expert guides, suitable for beginners and advanced climbers alike.",
+        "images": [
+          "rock_climbing_1.jpg",
+          "rock_climbing_2.jpg",
+          "rock_climbing_3.jpg",
+          "rock_climbing_4.jpg"
+        ]
+      },
+      {
+        "title": "5-Star Resort Stay",
+        "description": "Unwind at a luxurious resort with amenities like a spa, infinity pool, and private suites.",
+        "images": [
+          "luxury_resort_1.jpg",
+          "luxury_resort_2.jpg"
+        ]
+      },
+      {
+        "title": "Private Chef Services",
+        "description": "Enjoy gourmet meals prepared exclusively by a private chef, tailored to your dietary preferences.",
+        "images": [
+          "private_chef_1.jpg",
+          "private_chef_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Orientation",
+        "description": "Arrive at the luxurious resort and meet your guide for an itinerary briefing. Enjoy a welcome dinner prepared by your private chef.",
+        "accommodation": "5-Star Mountain Resort",
+        "mealPlan": "Dinner",
+        "travelTime": "1.5 hours from airport",
+        "transferMode": "Private luxury car",
+        "areaHighlights": [
+          {
+            "title": "Scenic Resort Grounds",
+            "description": "Relax in beautifully landscaped surroundings.",
+            "images": [
+              "resort_grounds_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Climbing Introduction and Practice",
+        "description": "Familiarize yourself with equipment and safety protocols before enjoying your first guided climbing session.",
+        "accommodation": "5-Star Mountain Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "1 hour to climbing site",
+        "transferMode": "Private jeep",
+        "areaHighlights": [
+          {
+            "title": "Training Cliffs",
+            "description": "Perfect spots to build confidence and hone skills.",
+            "images": [
+              "training_cliffs_1.jpg",
+              "training_cliffs_2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Guided Climbing Expeditions",
+        "description": "Spend a full day exploring intermediate climbing routes, with stunning views and challenging paths.",
+        "accommodation": "5-Star Mountain Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "1.5 hours round trip",
+        "transferMode": "Private jeep",
+        "areaHighlights": [
+          {
+            "title": "Iconic Rock Formations",
+            "description": "Experience breathtaking natural wonders.",
+            "images": [
+              "iconic_rocks_1.jpg",
+              "iconic_rocks_2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "4-6",
+        "title": "Advanced Climbing and Leisure",
+        "description": "Challenge yourself with advanced routes while enjoying relaxing evenings with spa treatments and fine dining.",
+        "accommodation": "5-Star Mountain Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Varies per site",
+        "transferMode": "Private jeep",
+        "areaHighlights": [
+          {
+            "title": "Sunset Rock Views",
+            "description": "Capture unforgettable moments during evening climbs.",
+            "images": [
+              "sunset_rock_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "7",
+        "title": "Farewell Breakfast and Departure",
+        "description": "Conclude your adventure with a farewell breakfast and transfer to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "1.5 hours to airport",
+        "transferMode": "Private luxury car",
+        "areaHighlights": [
+          {
+            "title": "Memorable Send-Off",
+            "description": "Depart with a gift package of local specialties.",
+            "images": [
+              "farewell_package_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "romantic",
+    "title": "8-Day Romantic Honeymoon",
+    "description": "Relax in secluded beachfront villas, enjoy private candlelit dinners, and immerse yourself in a dreamy tropical paradise tailored for couples.",
+    "image": "tourromance1",
+    "price": 1800,
+    "duration": "8 Days",
+    "highlights": [
+      {
+        "title": "Secluded Beachfront Villas",
+        "description": "Enjoy unparalleled privacy with direct beach access and luxurious amenities.",
+        "images": [
+          "beach_villa_1.jpg",
+          "beach_villa_2.jpg"
+        ]
+      },
+      {
+        "title": "Candlelit Dinners",
+        "description": "Experience romantic evenings with private dining under the stars.",
+        "images": [
+          "candlelight_dinner_1.jpg",
+          "candlelight_dinner_2.jpg"
+        ]
+      },
+      {
+        "title": "Couples Spa Treatments",
+        "description": "Rejuvenate with exclusive spa therapies designed for couples.",
+        "images": [
+          "couples_spa_1.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Champagne Reception",
+        "description": "Welcome to your private villa with a celebratory champagne reception and a gourmet dinner.",
+        "accommodation": "Secluded Beachfront Villa",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private luxury car",
+        "areaHighlights": [
+          {
+            "title": "Tropical Paradise",
+            "description": "Surround yourself with pristine beaches and crystal-clear waters.",
+            "images": [
+              "tropical_paradise_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2-7",
+        "title": "Private Excursions and Relaxation",
+        "description": "Enjoy activities like snorkeling, sunset cruises, and private tours. Each evening, savor a custom meal prepared by your private chef.",
+        "accommodation": "Secluded Beachfront Villa",
+        "mealPlan": "Breakfast, Dinner",
+        "travelTime": "Varies per activity",
+        "transferMode": "Private boat or car",
+        "areaHighlights": [
+          {
+            "title": "Snorkeling Adventures",
+            "description": "Explore vibrant coral reefs and marine life.",
+            "images": [
+              "snorkeling_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "8",
+        "title": "Farewell Breakfast and Departure",
+        "description": "Complete your honeymoon with a farewell breakfast and a private transfer to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private luxury car",
+        "areaHighlights": [
+          {
+            "title": "Beach Sunrise",
+            "description": "Watch your final sunrise on the pristine beach.",
+            "images": [
+              "beach_sunrise_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "romantic",
+    "title": "3-Day Romantic Quick Honeymoon",
+    "description": "A perfect short getaway for couples to indulge in underwater adventures, luxury beachfront accommodations, and romantic sunset cruises.",
+    "image": "tourromance2",
+    "price": 900,
+    "duration": "3 Days",
+    "highlights": [
+      {
+        "title": "Luxury Beachfront Stay",
+        "description": "Experience the serene beauty of the ocean from your luxurious beachfront room.",
+        "images": [
+          "beachfront_stay_1.jpg",
+          "beachfront_stay_2.jpg"
+        ]
+      },
+      {
+        "title": "Snorkeling Adventures",
+        "description": "Dive into the crystal-clear waters to explore vibrant coral reefs.",
+        "images": [
+          "snorkeling_adventure_1.jpg",
+          "snorkeling_adventure_2.jpg"
+        ]
+      },
+      {
+        "title": "Romantic Sunset Cruise",
+        "description": "Sail into the horizon on a private cruise, enjoying champagne and breathtaking views.",
+        "images": [
+          "sunset_cruise_1.jpg",
+          "sunset_cruise_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Relaxation",
+        "description": "Arrive at your luxury resort and unwind by the beach. Spend the evening savoring a romantic dinner under the stars.",
+        "accommodation": "Luxury Beachfront Resort",
+        "mealPlan": "Dinner",
+        "travelTime": "1.5 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Scenic Beachfront Views",
+            "description": "Unwind with panoramic views of the turquoise ocean.",
+            "images": [
+              "beachfront_views_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Full Day Snorkeling and Beach Fun",
+        "description": "Explore the vibrant marine ecosystem with guided snorkeling trips, followed by leisure time on the pristine beach.",
+        "accommodation": "Luxury Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "30 minutes to snorkeling site",
+        "transferMode": "Private boat",
+        "areaHighlights": [
+          {
+            "title": "Coral Reefs",
+            "description": "Discover underwater beauty with professional guides.",
+            "images": [
+              "coral_reefs_1.jpg",
+              "coral_reefs_2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Morning Cruise and Departure",
+        "description": "Begin your day with a romantic sunrise cruise, followed by a farewell breakfast before your departure.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "1.5 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Sunrise on the Ocean",
+            "description": "A serene and memorable start to your day.",
+            "images": [
+              "sunrise_cruise_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "thematic special",
+    "title": "2-Week All Around Sri Lanka Adventure",
+    "description": "Embark on an epic 14-day journey exploring the cultural, natural, and urban gems of Sri Lanka, with guided tours, luxurious stays, and unforgettable experiences.",
+    "image": "tourthema",
+    "price": 3500,
+    "duration": "14 Days",
+    "highlights": [
+      {
+        "title": "Cultural Landmarks",
+        "description": "Discover the rich history and heritage of Sri Lanka through its ancient temples, palaces, and UNESCO World Heritage sites.",
+        "images": [
+          "cultural_landmarks_1.jpg",
+          "cultural_landmarks_2.jpg"
+        ]
+      },
+      {
+        "title": "Nature Trails",
+        "description": "Explore breathtaking national parks, waterfalls, and lush forests.",
+        "images": [
+          "nature_trails_1.jpg",
+          "nature_trails_2.jpg"
+        ]
+      },
+      {
+        "title": "City Explorations",
+        "description": "Dive into the vibrant city life with local markets, street food, and cultural performances.",
+        "images": [
+          "city_exploration_1.jpg",
+          "city_exploration_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Welcome Dinner",
+        "description": "Arrive in Colombo, meet your guide, and enjoy a welcome dinner with traditional Sri Lankan cuisine.",
+        "accommodation": "Luxury City Hotel, Colombo",
+        "mealPlan": "Dinner",
+        "travelTime": "1 hour from airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "City Sights",
+            "description": "Explore the bustling capital city with its mix of modernity and tradition.",
+            "images": [
+              "colombo_city_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2-3",
+        "title": "Cultural Heritage Sites",
+        "description": "Visit historic landmarks like the Sigiriya Rock Fortress, Dambulla Cave Temple, and Polonnaruwa.",
+        "accommodation": "Heritage Hotel, Sigiriya",
+        "mealPlan": "Breakfast, Dinner",
+        "travelTime": "3-5 hours daily travel",
+        "transferMode": "Private coach",
+        "areaHighlights": [
+          {
+            "title": "Sigiriya Rock Fortress",
+            "description": "Climb the Lion's Rock and enjoy breathtaking views.",
+            "images": [
+              "sigiriya_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "4-7",
+        "title": "Beachside Relaxation",
+        "description": "Unwind on Sri Lanka\u2019s southern beaches with activities like surfing, turtle watching, and sunbathing.",
+        "accommodation": "Beachfront Resort, Galle",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to beach",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Unspoiled Beaches",
+            "description": "Enjoy golden sands and turquoise waters.",
+            "images": [
+              "galle_beach_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "8-13",
+        "title": "Mountain and City Adventures",
+        "description": "Discover tea plantations, trek through Horton Plains, and experience the charm of Kandy and Nuwara Eliya.",
+        "accommodation": "Mountain Lodge, Nuwara Eliya",
+        "mealPlan": "Breakfast, Dinner",
+        "travelTime": "Varies per day",
+        "transferMode": "Train and private car",
+        "areaHighlights": [
+          {
+            "title": "Horton Plains",
+            "description": "Trek through misty landscapes to World's End.",
+            "images": [
+              "horton_plains_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "14",
+        "title": "Farewell and Departure",
+        "description": "End your journey with a traditional farewell ceremony and transfer to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "3 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Final Memories",
+            "description": "Cherish your last moments in paradise.",
+            "images": [
+              "farewell_ceremony_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "beach and chill",
+    "title": "3-Day Standard Beach and Chill Package",
+    "description": "A delightful 3-day getaway to relax by the beach, explore vibrant underwater ecosystems, and savor fresh local seafood.",
+    "image": "tourbeach1",
+    "price": 700,
+    "duration": "3 Days",
+    "highlights": [
+      {
+        "title": "Cozy Beach Stay",
+        "description": "Stay in charming accommodations with direct access to a serene beach.",
+        "images": [
+          "cozy_beach_stay_1.jpg",
+          "cozy_beach_stay_2.jpg"
+        ]
+      },
+      {
+        "title": "Snorkeling Adventures",
+        "description": "Explore the wonders of the ocean and colorful coral reefs.",
+        "images": [
+          "snorkeling_1.jpg",
+          "snorkeling_2.jpg"
+        ]
+      },
+      {
+        "title": "Local Seafood Feasts",
+        "description": "Indulge in fresh, locally sourced seafood delicacies.",
+        "images": [
+          "seafood_feast_1.jpg",
+          "seafood_feast_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Beach Fun",
+        "description": "Check into your cozy beachside hotel. Spend the day enjoying the sun and waves.",
+        "accommodation": "Charming Beachside Hotel",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Golden Sands",
+            "description": "Relax on pristine beaches under the sun.",
+            "images": [
+              "golden_sands_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Snorkeling and Local Exploration",
+        "description": "Head out on a guided snorkeling adventure and spend the afternoon exploring local attractions.",
+        "accommodation": "Charming Beachside Hotel",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "30 minutes to snorkeling site",
+        "transferMode": "Private boat",
+        "areaHighlights": [
+          {
+            "title": "Coral Reefs",
+            "description": "Discover vibrant marine life.",
+            "images": [
+              "coral_reef_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Morning Stroll and Departure",
+        "description": "Take a peaceful morning walk along the beach before checking out and heading to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Tranquil Beaches",
+            "description": "End your trip with a serene morning by the sea.",
+            "images": [
+              "tranquil_beach_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "beach and chill",
+    "title": "5-Day Luxury Beach and Chill Package",
+    "description": "A luxurious escape to private beaches, indulgent cabanas, and memorable bonfire evenings.",
+    "image": "tourbeach2",
+    "price": 1500,
+    "duration": "5 Days",
+    "highlights": [
+      {
+        "title": "Private Beach Access",
+        "description": "Enjoy exclusive access to a secluded beach area.",
+        "images": [
+          "private_beach_1.jpg",
+          "private_beach_2.jpg"
+        ]
+      },
+      {
+        "title": "Luxury Cabanas",
+        "description": "Stay in exquisite cabanas with premium amenities.",
+        "images": [
+          "luxury_cabana_1.jpg",
+          "luxury_cabana_2.jpg"
+        ]
+      },
+      {
+        "title": "Evening Bonfires",
+        "description": "Unwind by the fire with stories, music, and drinks under the stars.",
+        "images": [
+          "bonfire_evening_1.jpg",
+          "bonfire_evening_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Relaxation",
+        "description": "Arrive at your luxury cabana and enjoy a peaceful evening by the private beach.",
+        "accommodation": "Luxury Beachfront Cabanas",
+        "mealPlan": "Dinner",
+        "travelTime": "2.5 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Private Beach Sunset",
+            "description": "Watch the sun set over your private beach.",
+            "images": [
+              "private_sunset_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2-4",
+        "title": "Daily Beach and Water Activities",
+        "description": "Spend your days with kayaking, snorkeling, and relaxing by the cabanas. Evenings are reserved for bonfires and gourmet dinners.",
+        "accommodation": "Luxury Beachfront Cabanas",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal, activities on-site",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Water Adventures",
+            "description": "Kayak along the coast and snorkel through vibrant waters.",
+            "images": [
+              "kayaking_1.jpg"
+            ]
+          },
+          {
+            "title": "Bonfire Nights",
+            "description": "Gather around a cozy fire under the stars.",
+            "images": [
+              "bonfire_night_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "5",
+        "title": "Farewell and Departure",
+        "description": "Enjoy a farewell breakfast before your departure.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2.5 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Final Beach Moments",
+            "description": "Take in the peaceful surroundings one last time.",
+            "images": [
+              "farewell_beach_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "hike bike and kayak",
+    "title": "2-Day Adventure",
+    "description": "Embark on an action-packed 2-day adventure with kayaking, campfires, and mountain biking. Perfect for thrill-seekers looking for a quick nature getaway.",
+    "image": "tourholiday1",
+    "price": 400,
+    "duration": "2 Days",
+    "highlights": [
+      {
+        "title": "Guided Kayak Trips",
+        "description": "Experience thrilling guided kayak tours along the coast.",
+        "images": [
+          "kayak_trip_1.jpg",
+          "kayak_trip_2.jpg"
+        ]
+      },
+      {
+        "title": "Evening Campfires",
+        "description": "Enjoy cozy campfires with stories and music.",
+        "images": [
+          "campfire_1.jpg",
+          "campfire_2.jpg"
+        ]
+      },
+      {
+        "title": "Mountain Biking Trails",
+        "description": "Tackle scenic mountain biking trails through lush landscapes.",
+        "images": [
+          "mountain_bike_1.jpg",
+          "mountain_bike_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Kayaking",
+        "description": "Arrive and enjoy a guided kayaking tour along the coast.",
+        "accommodation": "Mountain View Cabins",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Evening Campfire",
+            "description": "Unwind by the campfire with music and snacks.",
+            "images": [
+              "campfire_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Biking Trails and Departure",
+        "description": "Cycle through scenic mountain trails and depart after a relaxing lunch.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast, Lunch",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Mountain Biking Adventure",
+            "description": "Explore the best mountain biking routes.",
+            "images": [
+              "mountain_bike_1.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "hike bike and kayak",
+    "title": "4-Day Adventure",
+    "description": "Experience an extended 4-day adventure with multiple kayaking trips, challenging biking trails, and stunning nature photography opportunities.",
+    "image": "tourholiday1",
+    "price": 800,
+    "duration": "4 Days",
+    "highlights": [
+      {
+        "title": "Multiple Kayaking Sessions",
+        "description": "Enjoy a series of kayaking tours along picturesque coastlines.",
+        "images": [
+          "kayak_sessions_1.jpg",
+          "kayak_sessions_2.jpg"
+        ]
+      },
+      {
+        "title": "Advanced Biking Routes",
+        "description": "Test your skills with challenging biking trails.",
+        "images": [
+          "advanced_biking_1.jpg",
+          "advanced_biking_2.jpg"
+        ]
+      },
+      {
+        "title": "Nature Photography Opportunities",
+        "description": "Capture stunning landscapes and wildlife on guided tours.",
+        "images": [
+          "photography_1.jpg",
+          "photography_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Briefing",
+        "description": "Arrive and get an overview of the activities before settling in.",
+        "accommodation": "Adventure Lodge",
+        "mealPlan": "Dinner",
+        "travelTime": "3 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Kayaking and Biking",
+        "description": "Spend the day kayaking along serene beaches and biking through trails.",
+        "accommodation": "Adventure Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": []
+      },
+      {
+        "day": "3",
+        "title": "Photography and Nature Exploration",
+        "description": "Take a guided nature photography tour with expert tips.",
+        "accommodation": "Adventure Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": []
+      },
+      {
+        "day": "4",
+        "title": "Departure",
+        "description": "Enjoy a relaxing morning before heading to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "3 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "holiday and vacation",
+    "title": "5-Day Holiday Package",
+    "description": "Relax and unwind on a 5-day holiday package featuring beachfront stays, guided city tours, and moments of pure relaxation.",
+    "image": "tourholiday1",
+    "price": 1300,
+    "duration": "5 Days",
+    "highlights": [
+      {
+        "title": "Beachfront Stays",
+        "description": "Relax in beachfront accommodations with stunning views.",
+        "images": [
+          "beachfront_stay_1.jpg",
+          "beachfront_stay_2.jpg"
+        ]
+      },
+      {
+        "title": "City Tours",
+        "description": "Experience guided city tours to learn about local culture.",
+        "images": [
+          "city_tour_1.jpg",
+          "city_tour_2.jpg"
+        ]
+      },
+      {
+        "title": "Relaxation Time",
+        "description": "Unwind with ample time to relax on the beach or at the spa.",
+        "images": [
+          "relaxation_1.jpg",
+          "relaxation_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Leisure",
+        "description": "Arrive and relax at the beachfront property.",
+        "accommodation": "Beachfront Resort",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Guided City Tours",
+        "description": "Take a tour of the city's historical sites and local culture.",
+        "accommodation": "Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": []
+      },
+      {
+        "day": "3",
+        "title": "Beach Time and Relaxation",
+        "description": "Spend the day lounging on the beach or enjoying resort activities.",
+        "accommodation": "Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": []
+      },
+      {
+        "day": "4",
+        "title": "City Exploration",
+        "description": "Visit more historical sites and experience local cuisine.",
+        "accommodation": "Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": []
+      },
+      {
+        "day": "5",
+        "title": "Departure",
+        "description": "Enjoy a final breakfast before departing.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "holiday and vacation",
+    "title": "7-Day Vacation Package",
+    "description": "Enjoy a luxurious 7-day vacation with island explorations, premium accommodations, and a perfect mix of relaxation and activities.",
+    "image": "tourholiday2",
+    "price": 1800,
+    "duration": "7 Days",
+    "highlights": [
+      {
+        "title": "Island Explorations",
+        "description": "Embark on exciting explorations of nearby islands.",
+        "images": [
+          "island_exploration_1.jpg",
+          "island_exploration_2.jpg"
+        ]
+      },
+      {
+        "title": "Premium Accommodations",
+        "description": "Stay in luxurious, premium accommodations throughout the trip.",
+        "images": [
+          "premium_accommodation_1.jpg",
+          "premium_accommodation_2.jpg"
+        ]
+      },
+      {
+        "title": "Relaxation and Activities",
+        "description": "Enjoy a mix of relaxation and activities like yoga, spa treatments, and more.",
+        "images": [
+          "relaxation_activities_1.jpg",
+          "relaxation_activities_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Welcome Dinner",
+        "description": "Arrive and enjoy a welcome dinner with a beautiful view of the ocean.",
+        "accommodation": "Premium Beachfront Resort",
+        "mealPlan": "Dinner",
+        "travelTime": "3 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Island Exploration",
+        "description": "Set off for an exciting island exploration and enjoy a relaxing beach day.",
+        "accommodation": "Premium Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Island Beaches",
+            "description": "Explore pristine beaches on a private island.",
+            "images": [
+              "island_beach_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Island Exploration and Water Sports",
+        "description": "Engage in water sports like snorkeling, kayaking, or paddleboarding.",
+        "accommodation": "Premium Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Snorkeling Adventure",
+            "description": "Snorkel in crystal-clear waters and discover vibrant marine life.",
+            "images": [
+              "snorkeling_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "4",
+        "title": "Relaxation and Spa Treatments",
+        "description": "Indulge in a full day of relaxation with spa treatments and leisure time on the beach.",
+        "accommodation": "Premium Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Beachfront Yoga",
+            "description": "Join a yoga class on the beach with stunning sunrise views.",
+            "images": [
+              "yoga_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "5",
+        "title": "Nature Hike and Exploration",
+        "description": "Take a guided nature hike and discover the rich flora and fauna of the area.",
+        "accommodation": "Premium Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Nature Walks",
+            "description": "Embark on nature walks to explore the island\u2019s diverse wildlife.",
+            "images": [
+              "nature_walk_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "6",
+        "title": "Relaxation and Free Day",
+        "description": "Enjoy a free day to relax or participate in optional activities.",
+        "accommodation": "Premium Beachfront Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": []
+      },
+      {
+        "day": "7",
+        "title": "Farewell and Departure",
+        "description": "Enjoy your final morning on the beach before departing.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "3 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "feel the nature",
+    "title": "3-Day Nature Escape",
+    "description": "Reconnect with nature on a 3-day escape filled with peaceful walks, wildlife spotting, and eco-friendly accommodations.",
+    "image": "tournature1",
+    "price": 800,
+    "duration": "3 Days",
+    "highlights": [
+      {
+        "title": "Nature Walks",
+        "description": "Embark on peaceful nature walks through serene landscapes.",
+        "images": [
+          "nature_walk_1.jpg",
+          "nature_walk_2.jpg"
+        ]
+      },
+      {
+        "title": "Wildlife Spotting",
+        "description": "Observe diverse wildlife in their natural habitat.",
+        "images": [
+          "wildlife_spotting_1.jpg",
+          "wildlife_spotting_2.jpg"
+        ]
+      },
+      {
+        "title": "Eco-friendly Accommodations",
+        "description": "Stay in eco-friendly lodges with sustainability in mind.",
+        "images": [
+          "eco_accommodation_1.jpg",
+          "eco_accommodation_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Nature Hike",
+        "description": "Arrive and take a relaxing nature hike through lush forests.",
+        "accommodation": "Eco Lodge",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": [
+          {
+            "title": "Sunset Nature Walk",
+            "description": "End the day with a peaceful sunset walk through nature.",
+            "images": [
+              "sunset_walk_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "2",
+        "title": "Wildlife Tours and Exploration",
+        "description": "Spend the day on wildlife tours to spot local animals and birds.",
+        "accommodation": "Eco Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Birdwatching",
+            "description": "Join a birdwatching tour and spot some of the rare species in the area.",
+            "images": [
+              "birdwatching_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Departure",
+        "description": "Enjoy a final morning hike before heading back home.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "feel the nature",
+    "title": "5-Day Wilderness Adventure",
+    "description": "Venture deep into the wilderness on this 5-day adventure featuring remote lodges, day-long treks, and therapeutic forest bathing.",
+    "image": "tournature2",
+    "price": 1500,
+    "duration": "5 Days",
+    "highlights": [
+      {
+        "title": "Remote Nature Lodging",
+        "description": "Stay in remote, secluded lodges deep in nature.",
+        "images": [
+          "remote_lodge_1.jpg",
+          "remote_lodge_2.jpg"
+        ]
+      },
+      {
+        "title": "Day-long Treks",
+        "description": "Embark on challenging day-long treks through the wilderness.",
+        "images": [
+          "day_trek_1.jpg",
+          "day_trek_2.jpg"
+        ]
+      },
+      {
+        "title": "Forest Bathing",
+        "description": "Relax with a therapeutic forest bathing experience.",
+        "images": [
+          "forest_bathing_1.jpg",
+          "forest_bathing_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Orientation",
+        "description": "Arrive and meet your guide for an orientation of the wilderness adventure.",
+        "accommodation": "Remote Wilderness Lodge",
+        "mealPlan": "Dinner",
+        "travelTime": "3 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Full Day Trek and Forest Bathing",
+        "description": "Embark on a day-long trek through the forest, followed by forest bathing for relaxation.",
+        "accommodation": "Remote Wilderness Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Mountain Views",
+            "description": "Enjoy breathtaking mountain views along the trek.",
+            "images": [
+              "mountain_view_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Nature Exploration and Wildlife Spotting",
+        "description": "Explore the wilderness and spot wildlife, including birds and other creatures.",
+        "accommodation": "Remote Wilderness Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Wildlife Spotting",
+            "description": "Spot animals such as deer, foxes, and birds of prey.",
+            "images": [
+              "wildlife_spotting_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "4",
+        "title": "Wilderness Survival Skills and Exploration",
+        "description": "Learn essential wilderness survival skills and explore more remote areas.",
+        "accommodation": "Remote Wilderness Lodge",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Survival Skills",
+            "description": "Learn fire-making, shelter-building, and more in the wild.",
+            "images": [
+              "survival_skills_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "5",
+        "title": "Final Hike and Departure",
+        "description": "Enjoy a final hike through the forest before heading back home.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "3 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "ayurweda and wellness",
+    "title": "3-Day Wellness Retreat",
+    "description": "Unwind on a 3-day wellness retreat with therapeutic treatments, yoga sessions, and nourishing herbal meals.",
+    "image": "tourwildlife1",
+    "price": 1200,
+    "duration": "3 Days",
+    "highlights": [
+      {
+        "title": "Therapeutic Treatments",
+        "description": "Indulge in a range of therapeutic treatments designed to rejuvenate your mind and body.",
+        "images": [
+          "therapeutic_treatments_1.jpg",
+          "therapeutic_treatments_2.jpg"
+        ]
+      },
+      {
+        "title": "Yoga Sessions",
+        "description": "Participate in daily yoga sessions to relax and restore your body.",
+        "images": [
+          "yoga_sessions_1.jpg",
+          "yoga_sessions_2.jpg"
+        ]
+      },
+      {
+        "title": "Herbal Meal Plans",
+        "description": "Enjoy nourishing herbal meals that support overall wellness.",
+        "images": [
+          "herbal_meal_1.jpg",
+          "herbal_meal_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Welcome and Treatments",
+        "description": "Arrive and begin your wellness retreat with a calming welcome ceremony and your first therapeutic treatment.",
+        "accommodation": "Wellness Resort",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Full Wellness Program",
+        "description": "Enjoy a full day of therapeutic treatments, yoga sessions, and a personalized herbal meal plan.",
+        "accommodation": "Wellness Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Morning Yoga",
+            "description": "Start the day with a serene yoga session by the beach.",
+            "images": [
+              "morning_yoga_1.jpg"
+            ]
+          },
+          {
+            "title": "Aromatherapy Massage",
+            "description": "Relax with an aromatherapy massage designed to calm your senses.",
+            "images": [
+              "aromatherapy_massage_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Relaxation and Departure",
+        "description": "End your retreat with a final yoga session and relaxation time before departing.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "ayurweda and wellness",
+    "title": "7-Day Complete Wellness Program",
+    "description": "Rejuvenate on a 7-day Ayurveda and wellness program with personalized therapies, yoga, and a custom diet plan.",
+    "image": "tourwildlife2",
+    "price": 2500,
+    "duration": "7 Days",
+    "highlights": [
+      {
+        "title": "Comprehensive Ayurveda Therapies",
+        "description": "Undergo a range of Ayurveda therapies tailored to your needs, including detoxification, rejuvenation, and relaxation.",
+        "images": [
+          "ayurveda_therapy_1.jpg",
+          "ayurveda_therapy_2.jpg"
+        ]
+      },
+      {
+        "title": "Daily Yoga and Meditation",
+        "description": "Engage in daily yoga and meditation sessions to harmonize body and mind.",
+        "images": [
+          "yoga_meditation_1.jpg",
+          "yoga_meditation_2.jpg"
+        ]
+      },
+      {
+        "title": "Custom Diet Plans",
+        "description": "Enjoy a customized diet plan based on Ayurvedic principles to enhance your well-being.",
+        "images": [
+          "custom_diet_1.jpg",
+          "custom_diet_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Orientation",
+        "description": "Arrive at the wellness retreat and receive an orientation about the program, followed by your first Ayurveda treatment.",
+        "accommodation": "Wellness Resort",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2-6",
+        "title": "Daily Wellness Activities",
+        "description": "Each day consists of a personalized wellness program, including Ayurveda treatments, yoga, meditation, and meals tailored to your needs.",
+        "accommodation": "Wellness Resort",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Ayurveda Massage",
+            "description": "Indulge in a soothing Ayurveda massage designed to detoxify and relax.",
+            "images": [
+              "ayurveda_massage_1.jpg"
+            ]
+          },
+          {
+            "title": "Morning Meditation",
+            "description": "Begin your day with a calming meditation session to set a peaceful tone.",
+            "images": [
+              "morning_meditation_1.jpg"
+            ]
+          },
+          {
+            "title": "Evening Yoga",
+            "description": "Conclude the day with an evening yoga session to relax and stretch.",
+            "images": [
+              "evening_yoga_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "7",
+        "title": "Departure",
+        "description": "Enjoy a final morning of relaxation and reflection before departing for home.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "wildlife and safari",
+    "title": "2-Day Safari Adventure",
+    "description": "Experience an exciting 2-day safari adventure with thrilling jeep safaris, wildlife spotting, and sunset tours.",
+    "image": "tourwildlife1",
+    "price": 600,
+    "duration": "2 Days",
+    "highlights": [
+      {
+        "title": "Jeep Safaris",
+        "description": "Embark on thrilling jeep safaris through diverse wildlife habitats.",
+        "images": [
+          "jeep_safari_1.jpg",
+          "jeep_safari_2.jpg"
+        ]
+      },
+      {
+        "title": "Wildlife Spotting",
+        "description": "Spot a variety of wildlife in their natural environment, including big cats, elephants, and exotic birds.",
+        "images": [
+          "wildlife_spotting_1.jpg",
+          "wildlife_spotting_2.jpg"
+        ]
+      },
+      {
+        "title": "Sunset Tours",
+        "description": "Enjoy a breathtaking sunset tour, witnessing the vibrant sky and animals as the day comes to an end.",
+        "images": [
+          "sunset_tour_1.jpg",
+          "sunset_tour_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Safari Tour",
+        "description": "Arrive and embark on an exciting afternoon jeep safari, spotting wildlife and enjoying the scenic beauty.",
+        "accommodation": "Safari Lodge",
+        "mealPlan": "Dinner",
+        "travelTime": "3 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Morning Wildlife Spotting and Departure",
+        "description": "Take an early morning safari to spot wildlife at dawn, followed by a farewell breakfast and departure.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "3 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "wildlife and safari",
+    "title": "5-Day Wildlife Exploration",
+    "description": "Embark on a 5-day wildlife exploration with multiple safaris, camping in the wild, and expert photography workshops.",
+    "image": "tourwildlife2",
+    "price": 1400,
+    "duration": "5 Days",
+    "highlights": [
+      {
+        "title": "Multiple National Park Visits",
+        "description": "Visit several national parks, each with unique wildlife and ecosystems to explore.",
+        "images": [
+          "national_park_visit_1.jpg",
+          "national_park_visit_2.jpg"
+        ]
+      },
+      {
+        "title": "Camping in the Wild",
+        "description": "Experience the wilderness by camping under the stars, surrounded by nature.",
+        "images": [
+          "camping_wild_1.jpg",
+          "camping_wild_2.jpg"
+        ]
+      },
+      {
+        "title": "Photography Workshops",
+        "description": "Learn wildlife photography techniques from experts, capturing moments in the wild.",
+        "images": [
+          "photography_workshop_1.jpg",
+          "photography_workshop_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Orientation",
+        "description": "Arrive and meet your guide for an orientation session, followed by your first safari experience.",
+        "accommodation": "Safari Lodge",
+        "mealPlan": "Dinner",
+        "travelTime": "3 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2-4",
+        "title": "Guided Safaris and Camping",
+        "description": "Enjoy guided safaris in different national parks, followed by a camping experience in the wild under the stars.",
+        "accommodation": "Camping in the Wild",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Big Cat Sightings",
+            "description": "Spot lions, leopards, and other big cats during safari drives.",
+            "images": [
+              "big_cat_sighting_1.jpg"
+            ]
+          },
+          {
+            "title": "Wildlife Photography",
+            "description": "Capture stunning photographs of animals and landscapes.",
+            "images": [
+              "wildlife_photography_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "5",
+        "title": "Morning Safari and Departure",
+        "description": "Go on an early morning safari for one last wildlife spotting experience before heading home.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "3 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "culture and history",
+    "title": "3-Day Cultural Tour",
+    "description": "Immerse yourself in a 3-day cultural journey exploring ancient ruins, vibrant performances, and local cuisine.",
+    "image": "tourculture1",
+    "price": 900,
+    "duration": "3 Days",
+    "highlights": [
+      {
+        "title": "Ancient Ruins",
+        "description": "Discover ancient ruins that tell the story of the region's rich history.",
+        "images": [
+          "ancient_ruins_1.jpg",
+          "ancient_ruins_2.jpg"
+        ]
+      },
+      {
+        "title": "Cultural Performances",
+        "description": "Experience traditional cultural performances, showcasing music, dance, and art.",
+        "images": [
+          "cultural_performance_1.jpg",
+          "cultural_performance_2.jpg"
+        ]
+      },
+      {
+        "title": "Local Cuisine Sampling",
+        "description": "Taste authentic local cuisine, offering a variety of flavors and regional dishes.",
+        "images": [
+          "local_cuisine_1.jpg",
+          "local_cuisine_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Cultural Show",
+        "description": "Arrive and enjoy a welcome dinner, followed by a cultural performance to kickstart your tour.",
+        "accommodation": "Cultural Heritage Hotel",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2",
+        "title": "Historical Site Tours",
+        "description": "Visit significant historical sites and ancient ruins to learn about the region's past.",
+        "accommodation": "Cultural Heritage Hotel",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Ancient Temple Visit",
+            "description": "Explore a well-preserved ancient temple and its surroundings.",
+            "images": [
+              "ancient_temple_1.jpg"
+            ]
+          },
+          {
+            "title": "Traditional Artisan Market",
+            "description": "Wander through a local artisan market and shop for handmade crafts.",
+            "images": [
+              "artisan_market_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "title": "Departure",
+        "description": "Enjoy a final tour of local markets and sampling of regional cuisine before heading to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "culture and history",
+    "title": "7-Day Heritage Journey",
+    "description": "Take a 7-day heritage journey visiting UNESCO World Heritage Sites, engaging in cultural workshops, and staying in luxury accommodations.",
+    "image": "tourculture2",
+    "price": 2200,
+    "duration": "7 Days",
+    "highlights": [
+      {
+        "title": "World Heritage Sites",
+        "description": "Visit UNESCO World Heritage Sites, rich in history and cultural significance.",
+        "images": [
+          "heritage_site_1.jpg",
+          "heritage_site_2.jpg"
+        ]
+      },
+      {
+        "title": "Interactive Cultural Workshops",
+        "description": "Participate in hands-on cultural workshops, learning local crafts, dances, and traditions.",
+        "images": [
+          "cultural_workshop_1.jpg",
+          "cultural_workshop_2.jpg"
+        ]
+      },
+      {
+        "title": "Luxury Stays",
+        "description": "Enjoy luxury accommodations at high-end hotels and heritage properties throughout the journey.",
+        "images": [
+          "luxury_accommodation_1.jpg",
+          "luxury_accommodation_2.jpg"
+        ]
+      }
+    ],
+    "itinerary": [
+      {
+        "day": "1",
+        "title": "Arrival and Orientation",
+        "description": "Arrive and receive an orientation of the journey, followed by a welcome dinner.",
+        "accommodation": "Heritage Hotel",
+        "mealPlan": "Dinner",
+        "travelTime": "2 hours from airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      },
+      {
+        "day": "2-6",
+        "title": "Daily Site Visits and Workshops",
+        "description": "Each day, visit significant heritage sites and engage in interactive cultural workshops. The evening ends with a cultural performance or local dining experience.",
+        "accommodation": "Heritage Hotel",
+        "mealPlan": "Breakfast, Lunch, Dinner",
+        "travelTime": "Minimal",
+        "transferMode": "N/A",
+        "areaHighlights": [
+          {
+            "title": "Ancient City Tour",
+            "description": "Tour a stunning ancient city, known for its well-preserved architecture and monuments.",
+            "images": [
+              "ancient_city_1.jpg"
+            ]
+          },
+          {
+            "title": "Cultural Dance Performance",
+            "description": "Watch a traditional dance performance depicting the local folklore.",
+            "images": [
+              "cultural_dance_1.jpg"
+            ]
+          },
+          {
+            "title": "Pottery Workshop",
+            "description": "Participate in a pottery workshop, learning the art of traditional ceramics.",
+            "images": [
+              "pottery_workshop_1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "7",
+        "title": "Farewell and Departure",
+        "description": "Enjoy a final tour of a local market and a farewell lunch before heading to the airport.",
+        "accommodation": "N/A",
+        "mealPlan": "Breakfast, Lunch",
+        "travelTime": "2 hours to airport",
+        "transferMode": "Private car",
+        "areaHighlights": []
+      }
+    ]
+  }
+]

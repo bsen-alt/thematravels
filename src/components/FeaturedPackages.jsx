@@ -95,7 +95,7 @@ const FeaturedPackages = () => {
           {featuredPackages.map((pkg, index) => (
             <motion.div
               key={pkg.title}
-              className="relative h-48 sm:h-72 md:h-64 w-80  shadow-md overflow-hidden group"
+              className="relative h-48 sm:h-72 md:h-64 w-80  shadow-md overflow-hidden group rounded-lg"
               style={{
                 backgroundImage: `url(${pkg.image})`,
                 backgroundSize: "cover",
@@ -133,7 +133,7 @@ const FeaturedPackages = () => {
                   <p className="text-sm md:text-[.8rem] leading-relaxed mb-4">
                     {pkg.description}
                   </p>
-                  <button className="bg-transparent border text-white py-2 px-4 text-[.8rem] hover:bg-[#333333] transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                  <button className="bg-transparent border text-white py-2 px-4 text-[.8rem] hover:bg-[#333333] transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500 ease-in-out rounded-lg">
                     FIND OUT MORE
                   </button>
                 </motion.div>

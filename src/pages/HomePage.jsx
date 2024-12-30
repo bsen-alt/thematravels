@@ -3,6 +3,7 @@ import HeroSection2 from "../components/HeroSection2";
 import FeaturedPackages from "../components/FeaturedPackages";
 import WhyUs from "../components/WhyUs";
 import ScrollLine from "../components/ScrollLine";
+import CustomizeTourBar from "../components/CustomizeTourBar";
 
 const HomePage = () => {
   const [activeSection, setActiveSection] = useState(0);
@@ -39,6 +40,7 @@ const HomePage = () => {
       >
         <FeaturedPackages />
       </div>
+      <CustomizeTourBar />
       <div
         className={`section ${activeSection === 2 ? "stacked" : ""}`}
         id="why-us"

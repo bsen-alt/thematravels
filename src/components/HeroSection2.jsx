@@ -118,7 +118,7 @@ const HeroSection2 = () => {
         <p className="text-lg sm:text-xl font-light max-w-2xl px-4">
           {packages[currentIndex].description}
         </p>
-        <button className="mt-6 bg-white text-black py-2 px-6 font-semibold hover:bg-gray-300 transition duration-300">
+        <button className="mt-6 bg-white text-black py-2 px-6 font-semibold hover:bg-gray-300 transition duration-300 rounded-md">
           {packages[currentIndex].buttonText}
         </button>
       </motion.div>
@@ -128,7 +128,7 @@ const HeroSection2 = () => {
         {visibleCards.map((pkg, index) => (
           <motion.div
             key={pkg.image}
-            className="h-48 w-36 sm:h-56 sm:w-40 shadow-md overflow-hidden"
+            className="h-48 w-36 sm:h-36 sm:w-24 shadow-md overflow-hidden rounded-md"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
@@ -145,7 +145,7 @@ const HeroSection2 = () => {
 
       {/* See All Tours Button */}
       <div className="absolute bottom-6 left-1/2 md:left-40 transform -translate-x-1/2 z-30 sm:left-1/2 sm:bottom-8">
-        <button className="bg-white text-black py-2 px-6 font-semibold hover:bg-gray-300 transition duration-300">
+        <button className="bg-white text-black py-2 px-6 font-semibold hover:bg-gray-300 transition duration-300 rounded-md">
           See All Tour Packages
         </button>
       </div>

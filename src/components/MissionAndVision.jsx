@@ -8,7 +8,7 @@ const MissionAndVision = () => {
       <div className="flex flex-col md:flex-row items-start gap-8">
         {/* Left Section */}
         <motion.div
-          className="md:w-4/12 flex items-center mx-auto"
+          className="md:w-4/12 flex items-center mx-auto "
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -22,13 +22,13 @@ const MissionAndVision = () => {
 
         {/* Right Section */}
         <motion.div
-          className="md:w-8/12 bg-gray-100 p-8"
+          className="md:w-8/12 bg-gray-100 p-8 rounded-lg"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-base sm:text-lg md:text-md italic text-gray-800 leading-relaxed font-thin">
+          <p className="text-base sm:text-lg md:text-md italic text-gray-800 leading-relaxed font-thin ">
             " Our mission at Ceyloni Tours is to provide personalized,
             immersive, and sustainable travel experiences across Sri Lanka. We
             are committed to showcasing the island’s natural wonders, cultural
@@ -61,7 +61,7 @@ const MissionAndVision = () => {
 
         {/* Right Section */}
         <motion.div
-          className="md:w-7/12 bg-[#E7D4BF] p-8 shadow-md"
+          className="md:w-7/12 bg-[#E7D4BF] p-8 shadow-md rounded-lg"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}

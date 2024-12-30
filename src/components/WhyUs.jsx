@@ -65,7 +65,7 @@ const WhyUs = () => {
           <Slider {...sliderSettings}>
             <div className="overflow-hidden shadow-xl">
               <motion.img
-                className="w-full h-96 object-cover"
+                className="w-full h-96 object-cover rounded-lg"
                 src={luxaryImg}
                 alt="Feature 1"
                 initial={{ scale: 1 }}
@@ -73,7 +73,7 @@ const WhyUs = () => {
                 transition={{ duration: 0.5 }}
               />
             </div>
-            <div className="overflow-hidden shadow-lg">
+            <div className="overflow-hidden shadow-lg rounded-lg">
               <motion.img
                 className="w-full h-96 object-cover"
                 src={romanticImg}
@@ -83,7 +83,7 @@ const WhyUs = () => {
                 transition={{ duration: 1 }}
               />
             </div>
-            <div className="overflow-hidden shadow-lg">
+            <div className="overflow-hidden shadow-lg rounded-lg">
               <motion.img
                 className="w-full h-96 object-cover"
                 src={themaImg}
@@ -93,7 +93,7 @@ const WhyUs = () => {
                 transition={{ duration: 0.5 }}
               />
             </div>
-            <div className="overflow-hidden shadow-lg">
+            <div className="overflow-hidden shadow-lg rounded-lg">
               <motion.img
                 className="w-full h-96 object-cover"
                 src={beachImg}
