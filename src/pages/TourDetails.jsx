@@ -3,32 +3,14 @@ import { useParams } from "react-router-dom";
 import toursData from "../tours_standardized.json";
 
 import dummyImg from "../assets/images/dummyImg.jpg";
-import tourluxary1 from "../assets/images/luxaryt1.jpeg";
-import tourluxary2 from "../assets/images/luxaryt2.jpg";
-import tourromance1 from "../assets/images/romantict1.jpg";
-import tourromance2 from "../assets/images/romantict2.jpg";
-import tourthema from "../assets/images/themaspt.jpeg";
-import tourbeach1 from "../assets/images/beacht1.jpg";
-import tourbeach2 from "../assets/images/beacht2.jpg";
-import tourholiday1 from "../assets/images/holidayt1.jpg";
-import tourholiday2 from "../assets/images/holidayt2.jpg";
-import tournature1 from "../assets/images/naturet1.jpg";
-import tournature2 from "../assets/images/naturet2.jpg";
-import tourwildlife1 from "../assets/images/safarit1.jpg";
-import tourwildlife2 from "../assets/images/wildlifet2.jpg";
-import tourculture1 from "../assets/images/culturet1.jpg";
-import tourculture2 from "../assets/images/culturet2.jpg";
 
 const TourDetails = () => {
   const { tourId } = useParams(); // Get the tour ID from the URL
   const [activeTab, setActiveTab] = useState("Itinerary"); // Manage active tab
 
-  // Mock tour data (use your actual data source here)
   const allTours = toursData;
-  // Find the specific tour by ID
   const tour = allTours.find((tour) => tour.id === parseInt(tourId));
 
-  // Helper function to dynamically import images
   const getImage = (imageName) => {
     try {
       return require(`../assets/images/${imageName}`);
@@ -39,7 +21,11 @@ const TourDetails = () => {
   };
 
   if (!tour) {
-    return <div>Tour not found.</div>; // Handle invalid tour IDs
+    return (
+      <div className="text-center mt-16 text-lg text-gray-600">
+        Tour not found.
+      </div>
+    );
   }
 
   const handleTabChange = (tab) => {
@@ -47,22 +33,24 @@ const TourDetails = () => {
   };
 
   return (
-    <div className="mt-[6rem]  w-full">
+    <div className="mt-[6rem] w-full">
       {/* Cover Image */}
       <img
         src={getImage(tour.image)}
         alt={tour.title}
-        className="w-full h-[45vh] object-cover "
+        className="w-full h-[40vh] md:h-[45vh] object-cover"
       />
 
       {/* Horizontal Section */}
-      <div className="flex justify-between items-center bg-[#333] text-white sticky top-12 z-10 py-4 px-24 shadow-md">
-        <h1 className="text-2xl font-semibold">{tour.title}</h1>
-        <div className="flex space-x-4">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-[#333] text-white sticky top-14 z-10 py-4 px-6 md:px-24 shadow-md">
+        <h1 className="text-xl md:text-2xl font-semibold mb-4 md:mb-0">
+          {tour.title}
+        </h1>
+        <div className="flex space-x-2 md:space-x-4">
           {["Itinerary", "Inclusions", "Summary"].map((tab) => (
             <button
               key={tab}
-              className={`py-2 px-4 font-medium ${
+              className={`py-2 px-3 md:px-4 font-medium ${
                 activeTab === tab
                   ? "text-orange-200 border-b-2 border-orange-200"
                   : "text-gray-200"
@@ -76,22 +64,19 @@ const TourDetails = () => {
       </div>
 
       {/* Price Section */}
-      <div className="bg-gray-100 sticky top-28 z-10 py-2 px-24 shadow-md flex justify-between items-center">
-        <div className="flex items-center space-x-8">
-          {/* Duration */}
-          <div className="flex items-center">
+      <div className="bg-gray-100 sticky top-40 md:top-32  z-10 py-2 px-6 md:px-24 shadow-md flex  md:flex-row justify-between items-center">
+        <div className="flex flex-col  md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+          <div className="flex  md:flex-row items-center">
             <p className="text-sm text-gray-500 mr-2">Duration:</p>
             <p className="text-lg font-semibold">{tour.duration}</p>
           </div>
 
-          {/* Price in USD */}
-          <div className="flex items-center">
+          <div className="flex md:flex-row items-center">
             <p className="text-sm text-gray-500 mr-2">Price:</p>
             <p className="text-lg font-bold">USD {tour.price}</p>
           </div>
 
-          {/* Price in LKR */}
-          <div className="flex items-center">
+          <div className="flex  md:flex-row items-center">
             <p className="text-sm text-gray-500 mr-2">Equivalent:</p>
             <p className="text-lg text-gray-600">
               LKR {tour.price * 360} per person
@@ -99,8 +84,7 @@ const TourDetails = () => {
           </div>
         </div>
 
-        {/* Inquiry Button */}
-        <button className="bg-[#333333] text-white py-2 px-6 rounded-lg hover:bg-[#555555]">
+        <button className="bg-[#333333] text-white py-2 px-6 rounded-lg hover:bg-[#555555] mt-4 md:mt-0">
           Inquire Now
         </button>
       </div>
@@ -126,7 +110,7 @@ const TourDetails = () => {
                 {day.areaHighlights?.map((highlight, i) => (
                   <div key={i} className="px-4 mt-2">
                     <strong>{highlight.title}</strong>: {highlight.description}
-                    <div className="flex gap-2 mt-2">
+                    <div className="flex flex-wrap gap-2 mt-2">
                       {highlight.images?.map((img, j) => (
                         <img
                           key={j}
@@ -147,7 +131,7 @@ const TourDetails = () => {
             {tour.highlights.map((highlight, index) => (
               <li key={index}>
                 <strong>{highlight.title}</strong>: {highlight.description}
-                <div className="flex gap-2 mt-2">
+                <div className="flex flex-wrap gap-2 mt-2">
                   {highlight.images?.map((img, i) => (
                     <img
                       key={i}

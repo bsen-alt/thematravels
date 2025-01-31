@@ -12,3 +12,4 @@
 - [ ] Destination sample carousel like - https://www.laundromat.lk/ - homepage - Our Services For Commercial & Retail Customers
 - [ ] make round corners
 - [ ] mobile menu should not be full screen
+- [ ] Automatic itinerary generation based on the desired tour selected from the user - create inputs, create pre defined suitable tour paths, create navigations.
