@@ -15,7 +15,7 @@ bg-gradient-to-r from-[#333333] via-[#704F37] to-[#D2B48C]
 
 
 
-     text-white py-6 shadow-lg px-24"
+     text-white py-10 shadow-lg px-24"
     >
       <div className="flex flex-col">
         <h2 className="text-xl md:text-4xl font-semibold">
