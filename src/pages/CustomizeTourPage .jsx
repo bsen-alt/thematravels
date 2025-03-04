@@ -1,14 +1,4 @@
 import React, { useState } from "react";
-import { Slider } from "@/components/ui/slider";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Select, SelectItem } from "@/components/ui/select";
-import { CalendarIcon } from "lucide-react";
-import { DatePicker } from "@/components/ui/datepicker";
-import { cn } from "@/lib/utils";
 
 const CustomizeTourPage = () => {
   const [form, setForm] = useState({
