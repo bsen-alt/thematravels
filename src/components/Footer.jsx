@@ -32,8 +32,9 @@ const Footer = () => {
         {/* First Row: Logo and Social Media Icons */}
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4 md:px-16 z-40 relative">
           <div className="flex  sm:flex-row gap-2 sm:gap-4 items-center mb-4 sm:mb-0">
-            <img src={logoImg} alt="" className="h-12" />
-            <img src={textLogo} alt="" className="h-24 py-1 pt-2" />
+            {/* <img src={logoImg} alt="" className="h-12" />
+            <img src={textLogo} alt="" className="h-24 py-1 pt-2" /> */}
+            <h1 className="font-cinzel text-3xl font-normal">Lakpath Yatra</h1>
           </div>
           <div className="flex gap-4 sm:gap-8 justify-center sm:justify-end w-full sm:w-auto">
             <a href="https://facebook.com" target="_blank" rel="noreferrer">
@@ -59,10 +60,10 @@ const Footer = () => {
           {/* Content sections */}
           <div>
             <h4 className="text-lg font-semibold text-white mb-3">
-              Thema Travels
+              Lakpath Yatra
             </h4>
             <p className="space-y-2 pr-6 text-[.8rem]">
-              "At Thema Travels, we bring your travel dreams to life. Whether
+              "At Lakpath Yatra, we bring your travel dreams to life. Whether
               you're seeking luxurious retreats with world-class amenities,
               romantic escapes to celebrate your love, or thrilling adventures
               to satisfy your wanderlust, we’ve got you covered."
@@ -131,9 +132,9 @@ const Footer = () => {
         {/* Copyright Bar */}
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4 md:px-16 text-[.8rem] z-40 relative">
           <div className="flex flex-col md:flex-row gap-3 mb-4 sm:mb-0 text-center">
-            <p>&copy; 2024 Thema Travels. All rights reserved. </p>
+            <p>&copy; 2024 Lakpath Yatra. All rights reserved. </p>
             <p className="text-green-300">
-              Designed and Developed by Silicon Radon Networks Pvt. Ltd
+              Designed and Developed by Naviron Dynamics Pvt. Ltd
             </p>
           </div>
 

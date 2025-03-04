@@ -1,4 +1,14 @@
 import React, { useState } from "react";
+import { Slider } from "@/components/ui/slider";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Select, SelectItem } from "@/components/ui/select";
+import { CalendarIcon } from "lucide-react";
+import { DatePicker } from "@/components/ui/datepicker";
+import { cn } from "@/lib/utils";
 
 const CustomizeTourPage = () => {
   const [form, setForm] = useState({
@@ -66,238 +76,105 @@ const CustomizeTourPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#333333] via-[#5C4033] to-[#C19A6B] text-white pt-[10rem]">
-      <div className="max-w-4xl mx-auto p-6 space-y-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 px-4 lg:px-16">
+      <div className="max-w-4xl mx-auto space-y-8 bg-gray-900 p-8 rounded-2xl shadow-lg">
         <header className="text-center">
-          <h1 className="text-[4rem] font-cinzel">Customize Your Tour</h1>
-          <p className="text-lg">Create your dream getaway effortlessly!</p>
+          <h1 className="text-4xl font-bold text-yellow-400">
+            Customize Your Exclusive Tour
+          </h1>
+          <p className="text-lg text-gray-300 mt-2">
+            Plan the perfect getaway with tailored experiences!
+          </p>
         </header>
 
-        <form className="space-y-6">
-          {/* Personal Details */}
-          <div>
-            <h2 className="text-2xl font-semibold">Personal Details</h2>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
+        <Card className="bg-gray-800 shadow-xl p-6 space-y-6 rounded-xl">
+          <h2 className="text-2xl font-semibold text-yellow-300">
+            Personal Details
+          </h2>
+          <Input
+            name="name"
+            value={form.name}
+            onChange={handleInputChange}
+            placeholder="Full Name"
+            className="bg-gray-700 text-white"
+          />
+          <Input
+            type="email"
+            name="email"
+            value={form.email}
+            onChange={handleInputChange}
+            placeholder="Email"
+            className="bg-gray-700 text-white"
+          />
+          <div className="grid grid-cols-2 gap-4">
+            <Input
+              type="tel"
+              name="mobile"
+              value={form.mobile}
               onChange={handleInputChange}
-              placeholder="Name"
-              className="w-full p-3 rounded-md text-black mb-3"
+              placeholder="Mobile Number"
+              className="bg-gray-700 text-white"
             />
-            <input
-              type="email"
-              name="email"
-              value={form.email}
+            <Input
+              type="tel"
+              name="whatsapp"
+              value={form.whatsapp}
               onChange={handleInputChange}
-              placeholder="Email"
-              className="w-full p-3 rounded-md text-black mb-3"
+              placeholder="WhatsApp Number"
+              className="bg-gray-700 text-white"
             />
-            <div className="flex gap-4">
-              <input
-                type="tel"
-                name="mobile"
-                value={form.mobile}
-                onChange={handleInputChange}
-                placeholder="Mobile Number"
-                className="w-1/2 p-3 rounded-md text-black"
-              />
-              <input
-                type="tel"
-                name="whatsapp"
-                value={form.whatsapp}
-                onChange={handleInputChange}
-                placeholder="WhatsApp Number"
-                className="w-1/2 p-3 rounded-md text-black"
-              />
-            </div>
           </div>
+        </Card>
 
-          {/* Budget and Travel */}
-          <div>
-            <h2 className="text-2xl font-semibold">
-              Budget and Travel Details
-            </h2>
-            <div className="flex gap-4">
-              <input
-                type="number"
-                name="budget"
-                value={form.budget[0]}
-                onChange={(e) =>
-                  setForm({
-                    ...form,
-                    budget: [+e.target.value, form.budget[1]],
-                  })
-                }
-                placeholder="Lowest Budget"
-                className="w-1/2 p-3 rounded-md text-black"
-              />
-              <input
-                type="number"
-                name="budget"
-                value={form.budget[1]}
-                onChange={(e) =>
-                  setForm({
-                    ...form,
-                    budget: [form.budget[0], +e.target.value],
-                  })
-                }
-                placeholder="Highest Budget"
-                className="w-1/2 p-3 rounded-md text-black"
-              />
-            </div>
-            <div className="flex gap-4 mt-3">
-              <input
-                type="date"
-                name="arrivalDate"
-                value={form.arrivalDate}
-                onChange={handleInputChange}
-                className="w-1/2 p-3 rounded-md text-black"
-              />
-              <input
-                type="date"
-                name="departureDate"
-                value={form.departureDate}
-                onChange={handleInputChange}
-                className="w-1/2 p-3 rounded-md text-black"
-              />
-            </div>
-            <div className="flex gap-4 mt-3">
-              <input
-                type="number"
-                name="adults"
-                value={form.adults}
-                onChange={handleInputChange}
-                placeholder="Adults"
-                className="w-1/3 p-3 rounded-md text-black"
-              />
-              <input
-                type="number"
-                name="children"
-                value={form.children}
-                onChange={handleInputChange}
-                placeholder="Children"
-                className="w-1/3 p-3 rounded-md text-black"
-              />
-              <input
-                type="number"
-                name="infants"
-                value={form.infants}
-                onChange={handleInputChange}
-                placeholder="Infants"
-                className="w-1/3 p-3 rounded-md text-black"
-              />
-            </div>
-          </div>
+        <Card className="bg-gray-800 shadow-xl p-6 space-y-6 rounded-xl">
+          <h2 className="text-2xl font-semibold text-yellow-300">
+            Travel Budget
+          </h2>
+          <Slider
+            min={500}
+            max={10000}
+            step={100}
+            value={form.budget}
+            onChange={(val) => setForm({ ...form, budget: val })}
+          />
+          <p className="text-gray-300">
+            Budget: ${form.budget[0]} - ${form.budget[1]}
+          </p>
+        </Card>
 
-          {/* Tour Preferences */}
-          <div>
-            <h2 className="text-2xl font-semibold">Tour Preferences</h2>
-            <div className="flex flex-wrap gap-2">
-              {tourOptions.map((option) => (
-                <label key={option} className="flex items-center gap-2">
-                  <input
-                    type="checkbox"
-                    checked={form.tourPreferences.includes(option)}
-                    onChange={() =>
-                      handleMultiSelect("tourPreferences", option)
-                    }
-                  />
-                  {option}
-                </label>
-              ))}
-            </div>
-          </div>
-
-          {/* Places to Visit */}
-          <div>
-            <h2 className="text-2xl font-semibold">Places to Visit</h2>
-            {placeOptions.map(({ category, places }) => (
-              <div key={category}>
-                <h3 className="font-semibold mt-2">{category}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {places.map((place) => (
-                    <label key={place} className="flex items-center gap-2">
-                      <input
-                        type="checkbox"
-                        checked={form.placesToVisit.includes(place)}
-                        onChange={() =>
-                          handleMultiSelect("placesToVisit", place)
-                        }
-                      />
-                      {place}
-                    </label>
-                  ))}
-                </div>
-              </div>
+        <Card className="bg-gray-800 shadow-xl p-6 space-y-6 rounded-xl">
+          <h2 className="text-2xl font-semibold text-yellow-300">
+            Tour Preferences
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {tourOptions.map((option) => (
+              <Checkbox
+                key={option}
+                checked={form.tourPreferences.includes(option)}
+                onChange={() => handleMultiSelect("tourPreferences", option)}
+              >
+                {option}
+              </Checkbox>
             ))}
           </div>
+        </Card>
 
-          {/* Special Facilities */}
-          <div>
-            <h2 className="text-2xl font-semibold">Special Facilities</h2>
-            <div className="flex flex-wrap gap-2">
-              {[
-                "Wheelchair Support",
-                "Translator",
-                "Tour Guide",
-                "Infant Care",
-              ].map((facility) => (
-                <label key={facility} className="flex items-center gap-2">
-                  <input
-                    type="checkbox"
-                    checked={form.specialFacilities.includes(facility)}
-                    onChange={() =>
-                      handleMultiSelect("specialFacilities", facility)
-                    }
-                  />
-                  {facility}
-                </label>
-              ))}
-            </div>
-          </div>
+        <Card className="bg-gray-800 shadow-xl p-6 space-y-6 rounded-xl">
+          <h2 className="text-2xl font-semibold text-yellow-300">
+            Special Requests
+          </h2>
+          <Textarea
+            name="specialRequests"
+            value={form.specialRequests}
+            onChange={handleInputChange}
+            placeholder="Enter any special requests"
+            className="bg-gray-700 text-white"
+          />
+        </Card>
 
-          {/* Transportation */}
-          <div>
-            <h2 className="text-2xl font-semibold">Transportation</h2>
-            <select
-              name="transportation"
-              value={form.transportation}
-              onChange={handleInputChange}
-              className="w-full p-3 rounded-md text-black"
-            >
-              <option value="">Select Transportation</option>
-              <option value="Vehicle with Driver">Vehicle with Driver</option>
-              <option value="Vehicle without Driver">
-                Vehicle without Driver
-              </option>
-              <option value="Tuktuk">Tuktuk</option>
-              <option value="Motorbike">Motorbike</option>
-              <option value="AC Car">AC Car</option>
-              <option value="Non-AC Car">Non-AC Car</option>
-            </select>
-          </div>
-
-          {/* Special Requests */}
-          <div>
-            <h2 className="text-2xl font-semibold">Special Requests</h2>
-            <textarea
-              name="specialRequests"
-              value={form.specialRequests}
-              onChange={handleInputChange}
-              placeholder="Enter any special requests"
-              className="w-full p-3 rounded-md text-black"
-            ></textarea>
-          </div>
-
-          {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full py-3 bg-blue-500 rounded-md text-white font-semibold hover:bg-blue-600"
-          >
-            Submit Your Tour Plan
-          </button>
-        </form>
+        <Button className="w-full py-3 text-lg font-bold bg-yellow-500 hover:bg-yellow-600 transition rounded-lg shadow-md">
+          Submit Your Tour Plan
+        </Button>
       </div>
     </div>
   );

@@ -306,9 +306,11 @@ const Navbar = () => {
           {/* Logo Section */}
           <Link to="/" className="flex gap-5 items-center">
             {isScrolled ? (
-              <img src={textLogo} alt="" className="h-16 py-1 pt-2" />
+              // <img src={textLogo} alt="" className="h-16 py-1 pt-2" />
+              <h1 className="font-cinzel text-xl font-normal">Lakpath Yatra</h1>
             ) : (
-              <img src={textLogoWhite} alt="" className="h-16 py-1 pt-2" />
+              // <img src={textLogoWhite} alt="" className="h-16 py-1 pt-2" />
+              <h1 className="font-cinzel text-xl font-normal">Lakpath Yatra</h1>
             )}
           </Link>
 

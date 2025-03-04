@@ -21,7 +21,7 @@ const featuredPackages = [
     image: romanticImg,
   },
   {
-    title: "Wanderer’s Thema",
+    title: "Wanderer’s Yatra",
     description:
       "Experience unique, thematic journeys tailored to your interests. Whether cultural, adventurous, or wellness-focused, we have it all.",
     image: themaImg,
